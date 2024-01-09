@@ -4,13 +4,13 @@ import S2 from '../images/New2-card-2.png'
 import S3 from '../images/New3-card-3.png'
 const News=()=>{
     return(<>
-    <div className=" h-dvh bg-gray-200 px-20 py-8 ">
+    <div className=" h-150 bg-gray-200 px-20 py-8 ">
         <div className=" text-center">
             <p className=" text-xl text-slate-900 font-light">Recent updates</p>
             <h1 className="text-5xl text-blue-950 font-bold">Featured Stories</h1>
 
         </div>
-        <div className=" mt-5 grid grid-cols-3 px-32  ">
+        <div className=" mt-5 grid grid-cols-3 px-32   ">
             <div className=" w-72 h-110 bg-white rounded-3xl">
                 <div className="  mx-2 mt-2 rounded-3xl"> <img src={S1} /> </div>
                 <div className=" text-center mt-8">
